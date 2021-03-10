@@ -1,0 +1,13 @@
+<div class="center">
+  <select name="cars" id="cars">
+  </select>
+  <button type="button" (click)="ngOnChanges()">Display chart</button>
+  <div class="col-lg-6" style="width:800px; margin:0 auto;">
+    <nb-card>
+      <nb-card-body>
+        <ngx-echarts-bar [message]="message">
+        </ngx-echarts-bar>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>
